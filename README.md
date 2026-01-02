@@ -97,7 +97,7 @@ bool result = (a and not b) or (not a and b);
 ## 文件结构
 
 ```
-语法分析实习/
+mini-language-parser/
 ├── mini_parser.py           # 主程序（词法分析+语法分析+AST）
 ├── run_all_tests.py         # 自动化测试脚本
 ├── test_cases/              # 测试用例目录
