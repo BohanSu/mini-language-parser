@@ -1,0 +1,13 @@
+// 测试10: 复杂程序
+int n = 10;
+int sum = 0;
+int i = 1;
+
+while i <= n do
+    sum = sum + i;
+    i = i + 1;
+end
+
+if sum > 50 then
+    sum = 50;
+end

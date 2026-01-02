@@ -1,0 +1,4 @@
+// 错误测试4: begin块缺少end
+begin
+    int x = 5;
+    x = x + 1;

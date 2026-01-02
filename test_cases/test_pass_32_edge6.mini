@@ -1,0 +1,10 @@
+// 边界测试6: 深度嵌套的begin块
+begin
+    begin
+        begin
+            begin
+                int x = 5;
+            end
+        end
+    end
+end

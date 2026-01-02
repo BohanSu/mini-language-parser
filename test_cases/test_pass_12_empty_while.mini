@@ -1,0 +1,4 @@
+// 测试12: 空的while循环
+int i = 0;
+while i < 10 do
+end

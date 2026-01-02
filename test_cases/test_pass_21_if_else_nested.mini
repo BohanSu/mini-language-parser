@@ -1,0 +1,19 @@
+// 正确测试4: if-then-else结构
+int x = 1;
+int y = 2;
+
+if x > 0 then
+    y = 1;
+end
+
+if x > 0 then
+    y = 1;
+else
+    y = 0;
+end
+
+if x > 10 then
+    if y > 5 then
+        x = x + y;
+    end
+end

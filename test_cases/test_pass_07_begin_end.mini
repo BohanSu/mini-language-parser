@@ -1,0 +1,7 @@
+// 测试7: begin-end代码块
+int x = 0;
+begin
+    int y = 5;
+    x = y + 1;
+    y = x * 2;
+end

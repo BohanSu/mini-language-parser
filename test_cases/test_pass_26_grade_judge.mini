@@ -1,0 +1,20 @@
+// 正确测试9: 成绩等级判断
+int score = 85;
+string grade;
+if score >= 90 then
+    grade = "A";
+else
+    if score >= 80 then
+        grade = "B";
+    else
+        if score >= 70 then
+            grade = "C";
+        else
+            if score >= 60 then
+                grade = "D";
+            else
+                grade = "F";
+            end
+        end
+    end
+end

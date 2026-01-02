@@ -1,0 +1,12 @@
+// 正确测试8: 斐波那契数列
+int fib1 = 0;
+int fib2 = 1;
+int fib_next;
+int count = 10;
+int i = 0;
+while i < count do
+    fib_next = fib1 + fib2;
+    fib1 = fib2;
+    fib2 = fib_next;
+    i = i + 1;
+end

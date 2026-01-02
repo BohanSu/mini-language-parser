@@ -1,0 +1,6 @@
+// 正确测试1: 简单变量声明和赋值
+int x = 5;
+float y = 3.14;
+bool flag = true;
+string msg = "Hello";
+x = x + 1;

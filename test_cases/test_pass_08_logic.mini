@@ -1,0 +1,6 @@
+// 测试8: 逻辑运算
+bool a = true and false;
+bool b = true or false;
+bool c = not true;
+bool d = !false;
+bool e = true && false || true;

@@ -1,0 +1,8 @@
+// 正确测试7: 阶乘计算
+int n = 5;
+int factorial = 1;
+int i = 1;
+while i <= n do
+    factorial = factorial * i;
+    i = i + 1;
+end

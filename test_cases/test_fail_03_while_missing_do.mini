@@ -1,0 +1,4 @@
+// 错误测试3: while循环缺少do
+while x > 0
+    x = x - 1;
+end

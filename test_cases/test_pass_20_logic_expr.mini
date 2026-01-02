@@ -1,0 +1,12 @@
+// 正确测试3: 逻辑表达式
+int x = 10;
+int y = 5;
+bool flag = true;
+bool a = true and false;
+bool b = true or false;
+bool c = not true;
+bool d = x > 0 and y < 100;
+bool e = (x >= 5) || (y <= 20);
+bool f = x == y;
+bool g = x != y;
+bool h = !flag;

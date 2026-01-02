@@ -1,0 +1,5 @@
+// 测试6: while循环
+int i = 0;
+while i < 10 do
+    i = i + 1;
+end

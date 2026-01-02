@@ -1,0 +1,13 @@
+// 边界测试5: 深度嵌套的while循环
+int a = 0;
+while a < 2 do
+    int b = 0;
+    while b < 2 do
+        int c = 0;
+        while c < 2 do
+            c = c + 1;
+        end
+        b = b + 1;
+    end
+    a = a + 1;
+end

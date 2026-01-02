@@ -1,0 +1,11 @@
+// 边界测试3: 深层嵌套
+int x = 0;
+if x == 0 then
+    if x == 0 then
+        if x == 0 then
+            if x == 0 then
+                x = 1;
+            end
+        end
+    end
+end

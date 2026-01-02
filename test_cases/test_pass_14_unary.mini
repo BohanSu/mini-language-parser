@@ -1,0 +1,5 @@
+// 测试15: 一元运算符
+int a = -5;
+int b = +3;
+int c = --5;
+bool d = not not true;

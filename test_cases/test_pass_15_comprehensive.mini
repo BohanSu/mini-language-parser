@@ -1,0 +1,28 @@
+// 综合测试: 所有特性的复杂组合
+int n = 100;
+int sum = 0;
+int i = 1;
+bool done = false;
+
+// 计算1到n的和
+while i <= n and not done do
+    sum = sum + i;
+    i = i + 1;
+
+    if sum > 5000 then
+        done = true;
+    end
+end
+
+// 输出结果的模拟
+if done then
+    begin
+        string msg = "Sum exceeded 5000";
+        int final_sum = sum;
+    end
+else
+    begin
+        string msg = "Completed normally";
+        int final_sum = sum;
+    end
+end

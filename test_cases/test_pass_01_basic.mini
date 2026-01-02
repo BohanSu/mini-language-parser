@@ -1,0 +1,4 @@
+// 测试1: 基本的变量声明和赋值
+int x = 5;
+float y = 3.14;
+bool flag = true;

@@ -1,0 +1,5 @@
+// 测试3: 简单if语句
+int x = 5;
+if x > 0 then
+    x = 1;
+end

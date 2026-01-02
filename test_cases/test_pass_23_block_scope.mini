@@ -1,0 +1,13 @@
+// 正确测试6: begin-end代码块
+begin
+    int x = 5;
+    x = x + 1;
+end
+
+begin
+    int outer = 1;
+    begin
+        int inner = 2;
+        outer = outer + inner;
+    end
+end
